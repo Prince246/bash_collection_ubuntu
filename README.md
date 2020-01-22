@@ -1,4 +1,4 @@
-# Bash script for ubuntu
+# Bash script for ubuntu for developers
 
 ### apachephp7-1.sh file
 
