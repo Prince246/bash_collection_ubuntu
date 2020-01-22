@@ -5,11 +5,13 @@
   - Run this file if you want to setup lamp on ubuntu.
   - It contain php7.1,apache2,mysql-server,sublime,composer,sublime
   - For running this file you have to execute `sh path-of-the-file/apachephp7-1.sh file` on the terminal
+  - You need to enter mysql passowrd rest will be done.
 
 ## apachephp7.sh
 
   - Same as above file but it install php7.0 version.
   - For running this file you have to execute `sh path-of-the-file/apachephp7.sh file` on the terminal
+  - You need to enter mysql passowrd rest will be done.
 
 ## phpversion.sh
   - This file will help you switching php version.
@@ -31,7 +33,7 @@ License
 MIT
 
 
-**Free Software, Hell Yeah!**
+**Free Bash, Hell Yeah!**
 
 
   

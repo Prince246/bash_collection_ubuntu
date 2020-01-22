@@ -46,6 +46,7 @@ echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::installed Apac
 sleep 2
 
 
+sudo a2enmod rewrite headers
 
 
 

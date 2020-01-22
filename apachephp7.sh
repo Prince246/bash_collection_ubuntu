@@ -50,7 +50,7 @@ sleep 2
 
 
 # enable the mods for laravel
-sudo phpenmod mcrypt mbstring curl gettext
+sudo a2enmod rewrite headers
 echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::enabled PHP mods"
 sleep 2
 

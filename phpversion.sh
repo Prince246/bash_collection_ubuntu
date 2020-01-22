@@ -2,6 +2,9 @@ echo "Enter the php version you want enable"
 read phpenable
 echo "Enter the php version you want to disable"
 read phpdisable
+sudo add-apt-repository -y ppa:ondrej/php
+sudo apt-get update
+
 if [ "$phpenable" = "5.6" ]
 then
        
@@ -43,9 +46,6 @@ then
     sudo update-alternatives --set php /usr/bin/php7.2
     sudo service apache2 restart
 else
-  echo "Count is $task"
+  echo "Something wrong"
 fi
 
-    sudo apt install -y php7.1 php7.1-curl php7.1-mysql libapache2-mod-php7.1 
-    php7.1-bcmath php7.1-curl php7.1-gd php7.1-intl php7.1-mbstring php7.1-mcrypt 
-    php7.1-soap php7.1-xml php7.1-xsl php7.1-zip php7.1-json  libapache2-mod-php7.1
